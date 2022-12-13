@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+    height: 8%;
+    position: relative;
+    display: flex;
+    background-color: rgb(7, 157, 245);
+}
+
+.nav-items {
+    margin-right: 20em;
+    margin-left: 5em;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-right {
+    margin-right: 7em;
+}
+
+.nav-icon {
+    color: #fff;
+    height: 100%;
+    font-size: 1.5em;
+}
+
+.logo-discovery {
+    width: 20%;
+    margin: auto 5% ;
+}
+
+.logo-ap {
+    margin: auto 5% ;
+    /* height: 8%; */
+    width: 10%;
+}
+
+.main-content {
+    margin: 0 8em;
+}
+
+.main-banner {
+    width: 100%;
+    height: 6em;
+    display: grid;
+    place-items: center;
+    font-size: 1.2vw;
+    color: #fff;
+    background-color: rgb(46, 51, 107);
+}
+
+.banner-items {
+    display: flex;
+}
+
+.banner-img {
+    height: 10%;
+    width: 10%;
+    margin: auto 5%;
+}
+
+.banner-btn {
+    margin: auto 5%;
+    height: 2em;
+    width:9%;
+    border: none;
+    border-radius: 2em;
+    color:#fff;
+    background-color: rgb(18, 206, 206);
+}
+
+.banner-left {
+    height: 6em;
+    width: 8%;
+}
+
+.banner-right {
+    height: 6em;
+    width: 30%;
+    right: 0;
+    display: grid;
+    place-items: center;
+    background-color: rgb(43, 48, 78);
+}
