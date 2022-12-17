@@ -75,7 +75,7 @@ body {
 }
 
 .banner-btn {
-    margin: auto 5%;
+    margin: auto 2%;
     height: 2em;
     width:9%;
     border: none;
@@ -90,26 +90,157 @@ body {
 }
 
 .banner-right {
-    height: 6em;
+    height: 5.5em;
     width: 30%;
     right: 0;
     display: grid;
-    place-items: center;
+    place-items:flex-start;
     background-color: #1b344e;
+    padding-left: 1.5em;
+    padding-top:0.5em;
+}
+
+.banner-right p {
+    font-size: 1.1vw;
+    /* margin-bottom: 2em; */
 }
 
 .banner-flex {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.5em
 }
 
 .banner-icon {
-    font-size: 2em;
-    margin: auto 3%;
+    font-size: 1.5em;
+    margin:  -100% auto auto auto;
+    color: #fff;
 }
 
 .main-carrosel {
     width:100%;
     height: 25em;
+}
+
+.main-bg-carrosel {
+    width:100%;
+    height: 25em;
     background-color: #0073ff;
-    opacity: 0.6;
+    position: absolute;
+}
+
+.carrosel-container {
+    width: 55%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 0.5em;
+    padding:0.5em;
+    display: flex;
+    margin: 2.5em auto;
+}
+
+.carrosel-left {
+    flex-direction: column;
+    margin: 0 20% 0 2%;
+    justify-content: flex-start;
+}
+
+.carrosel-right {
+    display: grid;
+    place-items: center;
+}
+
+.carrosel-thumbnail {
+    width:21em;
+    height:12em;
+    margin-right: 6%;
+    border-radius: 0.5em;
+}
+
+.carrosel-ctg {
+    font-size: 1vw;
+    color:#0073ff;
+}
+
+.carrosel-container hr {
+    height:0.2em;
+    background-color: #0073ff;
+    border: none;
+    width: 30%;
+    padding: 0;
+    margin: -0.5em 0;
+}
+
+.carrosel-title {
+    font-size: 2vw;
+}
+
+.slide {
+    /* display: none; */
+}
+
+.carrosel-dots {
+    display: flex;
+}
+
+.dot {
+    cursor:pointer;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    margin:0 5px;
+    background-color: rgb(168, 168, 168);
+}
+
+.active, .dot:hover {
+    background-color: #ffffff;
+}
+
+.main-title {
+    display: grid;
+    place-items: center;
+    margin: 2em 0 1.5em 0;
+    font-size: 1.8vw;
+}
+
+.main-publicidade {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    font-size: 0.9vw;
+}
+
+.main-cards {
+    display: flex;
+    margin-top: 3em;
+}
+
+.card {
+    height:6.5em;
+    width: 9em;
+    background-color:#ECECEC;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0.8em 0.2em;
+    border-radius: 0.5em;
+    margin: 0.6em;
+    transition: 0.1s;
+}
+
+.card img {
+    height: 65%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card p {
+    font-size: 1vw;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 5px 2px #BDBDBD; 
+box-shadow: 0px 2px 5px 2px #BDBDBD;
 }
