@@ -4,23 +4,26 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .navbar {
     top: 0;
     width: 100%;
-    height: 8%;
+    height: 3.5em;
     position: relative;
     display: flex;
     background-color: #0073ff;
 }
 
 .nav-items {
-    margin-right: 20em;
     margin-left: 5em;
     display: flex;
     color: #fff;
-    justify-content: space-evenly;
+    flex: 0 1 90%;
+    flex-wrap: wrap;
+    gap: 3.5em;
 }
 
 .nav-items a {
@@ -29,7 +32,7 @@ body {
 }
 
 .nav-right {
-    margin-right: 7em;
+    flex: 0 0 10%;
 }
 
 .nav-icon {
@@ -39,14 +42,15 @@ body {
 }
 
 .logo-discovery {
-    width: 20%;
-    margin: auto 5% ;
+    width: 15%;
+    cursor: pointer;
 }
 
 .logo-ap {
-    margin: auto 5% ;
-    /* height: 8%; */
-    width: 10%;
+    margin: auto 0;
+    height: 1.5em;
+    width:5em;
+    cursor: pointer;
 }
 
 .main-content {
@@ -66,6 +70,10 @@ body {
 
 .banner-items {
     display: flex;
+}
+
+.banner-items p {
+    margin: 2% auto;
 }
 
 .banner-img {
@@ -242,5 +250,53 @@ body {
     transform: scale(1.05);
     background-color: #fff;
     -webkit-box-shadow: 0px 2px 5px 2px #BDBDBD; 
-box-shadow: 0px 2px 5px 2px #BDBDBD;
+    box-shadow: 0px 2px 5px 2px #BDBDBD;
+}
+
+.main-video-container {
+    width: 100%;
+    height: 25em;
+    display: flex;
+    margin: 2.5em 0 1em 0;
+}
+
+.vd-container-bg {
+    color: #fff;
+    width: 55%;
+    height: 20em;
+    padding: 1em;
+    background-color: #0073ff;
+    position: absolute;
+    z-index: -1;
+}
+
+.vd-container-bg p {
+    font-size: 2vw;
+}
+
+.vd-container-video {
+    margin: 1.8em 49.5%;
+}
+
+.main-catalogo {
+    width: 100%;
+    height: 10em;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,115,255,1) 76%);
+    display: grid;
+    grid-template-columns: minmax(13em, 1fr) 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 100%;
+    place-items: center;
+    column-gap: 0;
+}
+
+.catalogo-title {
+    color: #fff;
+    font-size: 2.5vw;
+    text-align: center;
+    grid-column:span 5;
+}
+
+.catalogo-video, img {
+    width: 13em;
 }
