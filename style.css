@@ -3,6 +3,19 @@
     src: url(font/Sharp\ Sans.otf);
 }
 
+@font-face {
+    font-family: Sharp-Sans-Bold;
+    src: url(font/SharpSansBold.otf);
+}
+
+.bold {
+    font-family: Sharp-Sans-Bold;
+}
+
+.regular {
+    font-family: Sharp-Sans;
+}
+
 body {
     font-family: Sharp-Sans;
     margin: 0;
@@ -23,12 +36,13 @@ body {
 }
 
 .nav-items {
-    margin-left: 5em;
     display: flex;
     color: #fff;
     flex: 0 1 90%;
     flex-wrap: wrap;
-    gap: 3.5em;
+    gap: 3em;
+    font-size: 0.9em;
+    margin: auto auto auto 5em;
 }
 
 .nav-items a {
@@ -79,6 +93,7 @@ body {
 
 .banner-items p {
     margin: 2% auto;
+    font-size: 0.85em;
 }
 
 .banner-img {
@@ -114,8 +129,7 @@ body {
 }
 
 .banner-right p {
-    font-size: 1.1vw;
-    /* margin-bottom: 2em; */
+    font-size: 1.1vw; 
 }
 
 .banner-flex {
@@ -156,7 +170,7 @@ body {
 
 .carrosel-left{
     flex-direction: column;
-    margin: 0 20% 0 2%;
+    margin: 0 15% 0 2%;
     justify-content: flex-start;
 }
 
@@ -187,7 +201,7 @@ body {
 }
 
 .carrosel-title, .amostra-title {
-    font-size: 2vw;
+    font-size: 1.6em;
 }
 
 .slide {
@@ -253,7 +267,7 @@ body {
 }
 
 .card p {
-    font-size: 1vw;
+    font-size: 0.9vw;
 }
 
 .card:hover {
@@ -274,14 +288,14 @@ body {
     color: #fff;
     width: 55%;
     height: 20em;
-    padding: 1em;
+    padding: 2.5em 0 0 1.5em ;
     background-color: #0073ff;
     position: absolute;
     z-index: -1;
 }
 
 .vd-container-bg p {
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 
 .vd-container-video {
@@ -308,7 +322,7 @@ body {
     color: #fff;
     font-size: 2.5vw;
     text-align: center;
-    margin: 0.5em 0 1em 0;
+    margin: 0.5em 0 0.7em 0;
 }
 
 .catalogo-video, img {
@@ -330,21 +344,22 @@ body {
 .time-container {
     display: flex;
     gap: 0.2em;
-    padding: 0.5em;
+    padding: 0.6em;
     justify-content: center;
     width: 3em;
     height: 1em;
     background-color: #000;
     color:#fff;
-    font-size: 1vw;
+    font-size: 0.9vw;
     position: absolute;
-    margin-top: -2.7em;
+    margin-top: -3em;
     margin-left: 0.4em;   
 }
 
 .time-container p {
     padding: 0;
     margin: 0;
+    align-self: flex-start;
 }
 
 .main-amostra {
@@ -397,7 +412,7 @@ body {
 }
 
 .recente-title {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
 }
 
 .main-recente hr {
@@ -407,3 +422,4 @@ body {
     background-color: #000;
     border:none;
 }
+
