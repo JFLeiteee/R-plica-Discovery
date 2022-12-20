@@ -1,5 +1,10 @@
+@font-face {
+    font-family: Sharp-Sans;
+    src: url(font/Sharp\ Sans.otf);
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Sharp-Sans;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -128,12 +133,14 @@ body {
 .main-carrosel {
     width:100%;
     height: 25em;
+    justify-content: center;
 }
 
 .main-bg-carrosel {
     width:100%;
     height: 25em;
-    background-color: #0073ff;
+    background-image: url(img/bg-cachorros.png);
+    object-fit: cover;
     position: absolute;
 }
 
@@ -189,6 +196,10 @@ body {
 
 .carrosel-dots {
     display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width:fit-content;
+    gap: 0.3em;
 }
 
 .dot {
@@ -196,7 +207,6 @@ body {
     height: 0.5em;
     width: 0.5em;
     border-radius: 50%;
-    margin:0 5px;
     background-color: rgb(168, 168, 168);
 }
 
@@ -220,7 +230,7 @@ body {
 
 .main-cards {
     display: flex;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .card {
@@ -279,27 +289,30 @@ body {
 }
 
 .main-catalogo {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     width: 100%;
     height: 18em;
-    display: grid;
-    grid-template-columns: minmax(13em, 1fr) 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 100%;
+    padding-top: 0.1em;
     place-items: center;
-    column-gap: 0;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(135,189,255,1) 39%, rgba(0,115,255,1) 100%);
+}
+
+.catalogo-items {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
 
 .catalogo-title {
     color: #fff;
     font-size: 2.5vw;
     text-align: center;
-    grid-column:span 5;
+    margin: 0.5em 0 1em 0;
 }
 
 .catalogo-video, img {
-    width: 13em;
+    width: 12.3em;
     transition: 0.15s;
 }
 
@@ -314,11 +327,33 @@ body {
     text-decoration-color: #0073ff;
 }
 
+.time-container {
+    display: flex;
+    gap: 0.2em;
+    padding: 0.5em;
+    justify-content: center;
+    width: 3em;
+    height: 1em;
+    background-color: #000;
+    color:#fff;
+    font-size: 1vw;
+    position: absolute;
+    margin-top: -2.7em;
+    margin-left: 0.4em;   
+}
+
+.time-container p {
+    padding: 0;
+    margin: 0;
+}
+
 .main-amostra {
     width:100%;
     height:20em;
     display: flex;
     justify-content: center;
+    margin-bottom: 2.5em;
+    border: none;
 }
 
 .amostra-thumbnail {
@@ -335,6 +370,7 @@ body {
     position: absolute;
     z-index: -1;
     width: 100%;
+    height: 20em;
     background-color: #000;
 }
 
@@ -346,15 +382,28 @@ body {
 }
 
 .amostra-bg img {
-    opacity: 0.8;
+    opacity: 0.7;
     height: 20em;
     width: 100%;
+    object-fit: cover;
 }
 
 .amostra-detalhe {
     height: 0.2em;
-    width:100%;
+    width: 100%;
     background-color: #0073ff;
     align-self: flex-end;
     position: absolute;
+}
+
+.recente-title {
+    font-size: 1.4vw;
+}
+
+.main-recente hr {
+    height: 0.2em;
+    width: 17vw;
+    margin: -1em 0 1em 0;
+    background-color: #000;
+    border:none;
 }
