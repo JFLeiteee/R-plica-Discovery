@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>HGTV White</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0004 0.298 37.7004 0.298 37.7004 12.4978 0.0004 12.4978"></polygon>
+        <polygon id="path-3" points="0.2004 0.4978 25.5 0.4978 25.5 14.7978 0.2004 14.7978"></polygon>
+        <polygon id="path-5" points="0.6999 0.198 14.9999 0.198 14.9999 15 0.6999 15"></polygon>
+    </defs>
+    <g id="HGTV-White" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" cx="36" cy="36" r="36"></circle>
+        <g id="Group-14" transform="translate(10.000000, 18.000000)">
+            <path d="M50.3,28 L50.3,28 C50.3,27.6 50.6,27.3 51,27.3 C51.4,27.3 51.7,27.6 51.7,28 C51.7,28.4 51.4,28.7 51,28.7 C50.6,28.7 50.3,28.4 50.3,28 L50.3,28 Z M51.6,28 L51.6,28 C51.6,27.7 51.4,27.4 51,27.4 C50.7,27.4 50.4,27.7 50.4,28 C50.4,28.3 50.6,28.6 51,28.6 C51.3,28.6 51.6,28.3 51.6,28 L51.6,28 Z M50.8,27.6 L51.1,27.6 C51.3,27.6 51.4,27.7 51.4,27.8 C51.4,27.9 51.3,28 51.2,28 L51.4,28.3 L51.2,28.3 L51,28.1 L50.9,28.1 L50.9,28.3 L50.8,28.3 L50.8,27.6 Z M51.1,28 C51.2,28 51.2,28 51.2,27.9 C51.2,27.8 51.1,27.8 51.1,27.8 L50.9,27.8 L50.9,28 L51.1,28 Z" id="Fill-1" fill="#FFFFFF"></path>
+            <g id="Group-5" transform="translate(0.000000, 0.702400)">
+                <g id="Fill-3-Clipped">
+                    <g>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="path-3"></g>
+                        <polygon id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)" points="37.7004 12.4978 18.8004 0.2978 0.0004 12.4978"></polygon>
+                    </g>
+                </g>
+            </g>
+            <polygon id="Fill-6" fill="#FFFFFF" points="0.0002 14.2002 4.8002 14.2002 4.8002 19.2002 9.3002 19.2002 9.3002 14.2002 14.0002 14.2002 14.0002 28.5002 9.3002 28.5002 9.3002 23.4002 4.8002 23.4002 4.8002 28.5002 0.0002 28.5002"></polygon>
+            <g id="Group-10" transform="translate(29.000000, 13.702400)">
+                <g id="Fill-8-Clipped">
+                    <g>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="path-5"></g>
+                        <polygon id="Fill-8" fill="#FFFFFF" mask="url(#mask-4)" points="20.2004 0.4978 17.3994 8.4978 14.7004 0.4978 0.2004 0.4978 0.2004 4.4978 4.0004 4.4978 4.0004 14.7978 8.7004 14.7978 8.7004 4.4978 10.8994 4.4978 15.0994 14.7978 19.7004 14.7978 25.5004 0.4978"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-13" transform="translate(14.000000, 13.702400)">
+                <g id="Fill-11-Clipped">
+                    <g>
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="path-7"></g>
+                        <path d="M0.6999,7.698 L0.6999,7.698 C0.6999,3.397 4.0999,0.198 8.5999,0.198 C11.0999,0.198 13.1999,0.998 14.6999,2.397 L11.9999,5.597 C11.0999,4.798 9.9999,4.498 8.7999,4.498 C6.8999,4.498 5.6999,5.798 5.6999,7.698 C5.6999,9.698 7.1999,10.998 8.9999,10.998 C9.7999,10.998 10.2999,10.798 10.5999,10.597 L10.5999,9.597 L8.0999,9.597 L8.0999,6.298 L14.9999,6.298 L14.9999,12.897 C13.3999,14.198 11.0999,14.998 8.5999,14.998 C4.1999,15.097 0.6999,12.097 0.6999,7.698" id="Fill-11" fill="#FFFFFF" mask="url(#mask-6)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
